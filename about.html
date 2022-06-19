@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrea Maple &mdash; Dreya Boutique</title>
+  <meta name="description" content="Dreya Boutique Prototype Site">
+  <meta name="author" content="Andrea Maple">
+  <meta name="keywords" content="Final Project, USU, Data Analytics and Information Systems">
+
+  <link href="dreya.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="shortcut icon" href="images/Diamond-icon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1><a href="index.html"><img src="images/mainlogo.png" alt="Dreya Boutique Logo" height="150"></a></h1>
+    </header>
+    <!-- Menu Bar -->
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a class="current" href="about.html">About</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" name="search">
+          <button type="button">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <div id="heroabout">
+      </div>
+      <div id="border">
+        <br><br><br>
+        <div style="background-color: black; padding-top: 1em;">
+          <h2>Welcome To Dreya Boutique</h2>
+          <h5>
+            "Jewelry has the power to be the one little thing that makes you feel unique."<br>Elizabeth Taylor
+          </h5>
+          <h4 style="margin: 2em;">Since she was a little girl playing in her mother's diamonds and pearls, Dreya has
+            always had a passion for jewelry. As an adult, Dreya continues with the belief that jewelry is the key to
+            adding a little bit of luxury to everyday life and making any great outfit a fabulous one.
+          </h4>
+          <br><br>
+        </div>
+        <br><br>
+        <hr><br><br>
+        <div style="background-color: rgb(228, 228, 228); padding-top: 1em;">
+          <h2>
+            Contact Dreya</h2>
+          <p>Please fill out this form and a member of our team will contact you in a timely
+            manner.</p>
+          <form method="post">
+            <label for="myName">Name: </label>
+            <input type="text" id="myName" name="myName" required>
+            <label for="myEmail">E-mail: </label>
+            <input type="email" id="myEmail" name="myEmail" required>
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" rows="2" cols="20" required></textarea>
+            <input type="submit" value="Submit" style="width: 20%;" onclick="alert('Your message has been sent!')">
+          </form>
+        </div>
+        <div>
+          <img src="images/logo_white.png" alt="Dreya Boutique Logo" style="padding: 1em;">
+        </div>
+      </div>
+    </main>
+
+    <footer>
+
+      Copyright &copy; 2022 Dreya Boutique<br>
+      <a href="mailto:contact@dreyaboutique.com">andrea@maple.com</a>
+
+      <div>
+        <p id="dateupdate"></p>
+        <script src="js/dateupdate.js"></script>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

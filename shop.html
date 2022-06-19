@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrea Maple &mdash; Dreya Boutique</title>
+  <meta name="description" content="Dreya Boutique Prototype Site">
+  <meta name="author" content="Andrea Maple">
+  <meta name="keywords" content="Final Project, USU, Data Analytics and Information Systems">
+
+  <link href="dreya.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="shortcut icon" href="images/Diamond-icon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1><a href="index.html"><img src="images/mainlogo.png" alt="Dreya Boutique Logo" height="150"></a></h1>
+    </header>
+    <!-- Menu Bar -->
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a class="current" href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" name="search">
+          <button type="button">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <div id="heroshop">
+      </div>
+      <div id="border">
+        <h1>Shop</h1>
+      </div>
+      <div id="flow">
+        <div class="item">
+          <img src="images/earrings_1.jpg" alt="Dangle Diamond Earrings" width="161" height="150">
+          <h3>Dangle Diamond Earrings</h3>
+          <p>Dazzling teardrop shaped 18k white gold diamond earrings.<br>$249.99</p>
+          <b>$199.99</b><br>
+          <button type="button" onclick="alert('This item has been added to your cart!')">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/earrings_2.jpg" alt="Diamond Stud Earrings" width="161" height="150">
+          <h3>Diamond Halo Stud Earrings</h3>
+          <p>These gorgeous 18k white gold diamond halo stud earrings are the perfect pair for any outfit.<br>$199.99
+          </p>
+          <b>$149.99</b><br>
+          <button type="button" onclick="alert('This item has been added to your cart!')">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/ring_1.jpg" alt="Rose Gold Diamond Band" width="161" height="150">
+          <h3>Rose Gold Diamond Band</h3>
+          <p>Beautifully crafted rose gold diamond band.<br>$299.99</p>
+          <b>$249.99</b><br>
+          <button type="button" onclick="alert('This item has been added to your cart!')">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/ring_2.jpg" alt="Diamond Halo Ring" width="161" height="150">
+          <h3>Diamond Halo Ring</h3>
+          <p>Say "I Do" with this stunning 18k yellow gold diamond halo engagement ring.<br>$899.99</p>
+          <b>$849.99</b><br>
+          <button type="button" onclick="alert('This item has been added to your cart!')">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/necklace_1.jpg" alt="Diamond Halo Pendant" width="161" height="150">
+          <h3>Diamond Halo Pendant</h3>
+          <p>Complete any outfit with this elegant 18k white gold diamond halo pendant.<br>$399.99</p>
+          <b>$349.99</b><br>
+          <button type="button" onclick="alert('This item has been added to your cart!')">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/necklace_2.jpg" alt="Diamond Studded Teardrop Pendant" width="161" height="150">
+          <h3>Diamond Studded Teardrop Pendant</h3>
+          <p>This equisite necklace is guaranteed to catch everyones attention.<br>$399.99</p>
+          <b>$349.99</b><br>
+          <button type="button" onclick="alert('This item has been added to your cart!')">Add to Cart</button>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <div>
+        <img src="images/logo_white.png" alt="Dreya Boutique Logo" style="padding: 1em;">
+      </div>
+    </main>
+
+    <footer>
+
+      Copyright &copy; 2022 Dreya Boutique<br>
+      <a href="mailto:contact@dreyaboutique.com">andrea@maple.com</a>
+
+      <div>
+        <p id="dateupdate"></p>
+        <script src="js/dateupdate.js"></script>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>
